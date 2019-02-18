@@ -66,6 +66,8 @@ header {
 }
 
 footer {
+  position: absolute;
+  margin-bottom:10px;
   width: 100%;
   text-align: center;
   background-color: lightgreen;
@@ -96,9 +98,10 @@ footer {
   margin-top:430px;
 }
   
-  footer {
+footer {
   position: relative;
   margin-left:0px;
+  text-align: center;
 }
 
 }
