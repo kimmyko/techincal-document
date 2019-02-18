@@ -4,12 +4,6 @@ html,body {
   background-color: #ffffff;
   line-height: 1.5;
 }
-
-h2{
-  font-size: 1.8em;
-  font-weight: bolder; 
-}
-
 #navbar {
   position: fixed;
   min-width: 290px;
@@ -66,7 +60,7 @@ header {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   margin-bottom:10px;
   width: 100%;
   text-align: center;
