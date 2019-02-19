@@ -28,7 +28,7 @@ header {
   margin: 0px;
 }
 #navbar ul {
-  height: 88%;
+  height: 60%;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -53,18 +53,21 @@ header {
 
 #main-doc{
   position: absolute;
-  margin-left:310px;
+  margin-left:305px;
   padding:20px;
-  margin-bottom:110px;
-
+  height: 100%;
+  bottom: 0px;
+  margin-bottom:0px;
 }
 
-footer {
-  position: relative;
+#footer {
+  position: absolute;
+  margin-left:-30px;
   width: 100%;
   text-align: center;
   background-color: lightgreen;
-  margin-bottom:0px;
+  padding: 1px 1px 1px 1px;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 815px) {
@@ -92,10 +95,14 @@ footer {
   margin-top:430px;
 }
   
-footer {
+#footer {
   position: relative;
   margin-left:0px;
   text-align: center;
+  margin-left:0px;
+  right:0px;
+  width: 100%;
 }
 
 }
+
