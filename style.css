@@ -61,10 +61,11 @@ header {
 
 footer {
   position: fixed;
-  margin-bottom:10px;
   width: 100%;
   text-align: center;
   background-color: lightgreen;
+ 
+  margin-bottom:100px;
 }
 
 @media only screen and (max-width: 815px) {
